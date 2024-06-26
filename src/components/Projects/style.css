@@ -1,0 +1,45 @@
+.project__titel h2 {
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.project__titel p {
+  color: #b8b8b8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px auto 30px auto;
+  text-align: center;
+  width: 56%;
+}
+
+.wrapper-content ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 72%;
+  height: 56px;
+  margin: 0 auto;
+  border-radius: 50px;
+  background-color: rgb(255 255 255 / 10%);
+  overflow: hidden;
+}
+.wrapper-content ul li {
+  padding-top: 20px;
+  text-align: center;
+  width: 33.33333%;
+}
+
+.item-one {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 55px 0px 0px 55px;
+}
+
+.item-two {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.item-three {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 0 55px 55px 0;
+}

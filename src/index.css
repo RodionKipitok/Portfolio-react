@@ -74,6 +74,11 @@ img {
   height: auto;
 }
 
+img,
+svg {
+  vertical-align: middle;
+}
+
 button {
   border: 0;
   background-color: transparent;
