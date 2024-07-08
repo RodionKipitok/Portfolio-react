@@ -51,6 +51,10 @@
   letter-spacing: 0.8px;
   padding: 0 25px;
   font-size: 18px;
+  opacity: 0.75;
+}
+
+.active-link {
   opacity: 1;
 }
 

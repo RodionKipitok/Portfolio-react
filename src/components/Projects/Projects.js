@@ -1,5 +1,5 @@
 import ProjectCard from './ProjectCard';
-import projImg1 from '../../assets/img/project-img1.png';
+import projImg1 from '../../assets/img/localhost_3001_Portfolio-react (1).png';
 import projImg2 from '../../assets/img/project-img2.png';
 import projImg3 from '../../assets/img/project-img3.png';
 import '../Projects/style.css';
@@ -37,7 +37,7 @@ const Projects = () => {
     },
   ];
   return (
-    <section className="project">
+    <section className="project" id="project">
       <div className="container">
         <div className="wrapper-content">
           <div className="project__titel">

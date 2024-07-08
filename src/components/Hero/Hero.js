@@ -13,7 +13,7 @@ const Hero = () => {
     const ticker = setInterval(() => {
       tick();
     }, delta);
-
+    console.log('hi');
     return () => {
       clearInterval(ticker);
     };

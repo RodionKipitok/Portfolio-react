@@ -26,9 +26,9 @@ const NavBar = () => {
     <header className={` header ${scrolled ? 'scrolled' : ''}`}>
       <div className="container">
         <div className="wrapper-modile-menu-logo-btnClose">
-          <Link to="/" className="nav-logo">
+          <a className="nav-logo">
             <strong>Radion Kuchernuk</strong>
-          </Link>
+          </a>
 
           <nav className={` nav ${isOpen ? 'active' : ''}`}>
             <NavigationLink />

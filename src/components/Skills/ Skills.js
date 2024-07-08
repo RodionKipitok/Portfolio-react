@@ -1,19 +1,14 @@
+import Slider from '../Skills/Slider/Slider';
+import '../Skills/styles.css';
 const Skills = () => {
   return (
-    <section className="skills">
-      <div className="container"></div>
+    <section className="skills" id="skills">
+      <div className="container">
+        <h2 className="skills__title">Skills</h2>
+        <Slider />
+      </div>
     </section>
   );
 };
 
 export default Skills;
-
-{
-  /* <div className="skills__titel-text">
-<h2>Skills</h2>
-<p>
-  Lorem Ipsum is simply dummy text of the printing and typesetting
-  industry. Lorem Ipsum has been the industry's standard dummy text.
-</p>
-</div> */
-}

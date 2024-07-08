@@ -43,3 +43,88 @@
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 55px 55px 0;
 }
+
+.project__dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 30px;
+  row-gap: 30px;
+  margin-top: 30px;
+}
+
+.proj-imgbx {
+  max-width: 400px;
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+
+.proj-imgbx::before {
+  content: '';
+  position: absolute;
+  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
+  opacity: 0.83;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease-in-out;
+}
+
+.proj-imgbx:hover::before {
+  height: 100%;
+}
+
+.proj-txtx {
+  position: absolute;
+  text-align: center;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s ease-in-out;
+  opacity: 0;
+  width: 100%;
+}
+
+.proj-imgbx:hover .proj-txtx {
+  top: 50%;
+  opacity: 1;
+}
+
+.proj-txtx h4 {
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1.1em;
+}
+.proj-txtx span {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.8px;
+}
+
+/* // Устройства X-Small (портретные телефоны, менее 576 пикселей) */
+
+@media (max-width: 575.98px) {
+}
+
+/* Устройства Small (телефоны с горизонтальной ориентацией, менее 768 пикселей) */
+
+@media (max-width: 767.98px) {
+}
+
+/* // Устройства Medium (планшеты, менее 992 пикселей) */
+
+@media (max-width: 991.98px) {
+}
+
+/* // Устройства Large (настольные компьютеры, менее 1200 пикселей) */
+
+@media (max-width: 1199.98px) {
+}
+
+/* // Устройства X-Large (большие настольные компьютеры, менее 1400 пикселей) */
+
+@media (max-width: 1399.98px) {
+}

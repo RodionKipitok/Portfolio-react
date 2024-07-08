@@ -1,24 +1,55 @@
-import { Link } from 'react-router-dom';
+import { useState } from 'react';
 import SocialLink from './SocialLink';
 const NavigationLink = () => {
+  const [activelink, setActiveLink] = useState('home');
   return (
     <div className="wrapper-nav-center">
       <div className="wrapper-nav">
         <ul className="nav-list">
           <li className="nav-list__item">
-            <Link className="nav-list__item-link" to="/home">
+            <a
+              href="#home"
+              className={
+                activelink === 'home'
+                  ? 'nav-list__item-link active-link'
+                  : 'nav-list__item-link'
+              }
+              onClick={() => {
+                setActiveLink('home');
+              }}
+            >
               Home
-            </Link>
+            </a>
           </li>
           <li className="nav-list__item">
-            <Link className="nav-list__item-link" to="project">
+            <a
+              href="#project"
+              className={
+                activelink === 'project'
+                  ? 'nav-list__item-link active-link'
+                  : 'nav-list__item-link'
+              }
+              onClick={() => {
+                setActiveLink('project');
+              }}
+            >
               Project
-            </Link>
+            </a>
           </li>
           <li className="nav-list__item">
-            <Link className="nav-list__item-link" to="/skills">
+            <a
+              href="#skills"
+              className={
+                activelink === 'skills'
+                  ? 'nav-list__item-link active-link'
+                  : 'nav-list__item-link'
+              }
+              onClick={() => {
+                setActiveLink('skills');
+              }}
+            >
               Skills
-            </Link>
+            </a>
           </li>
         </ul>
         <SocialLink />
