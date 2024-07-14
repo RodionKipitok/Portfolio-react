@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import '../NavBar/style.css';
 import NavigationLink from './NavigationLink';
 import { ReactComponent as MobileMenu } from '../../assets/img/burger-menu-svgrepo-com.svg';
@@ -26,7 +25,7 @@ const NavBar = () => {
     <header className={` header ${scrolled ? 'scrolled' : ''}`}>
       <div className="container">
         <div className="wrapper-modile-menu-logo-btnClose">
-          <a className="nav-logo">
+          <a href="/" className="nav-logo">
             <strong>Radion Kuchernuk</strong>
           </a>
 
