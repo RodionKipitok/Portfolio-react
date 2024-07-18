@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-react/static/css/main.fdf69429.css",
-    "main.js": "/Portfolio-react/static/js/main.10537a87.js",
+    "main.js": "/Portfolio-react/static/js/main.69b169fe.js",
     "static/media/banner-bg.png": "/Portfolio-react/static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/header-img.svg": "/Portfolio-react/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
     "static/media/CentraNo2-Bold.ttf": "/Portfolio-react/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
@@ -15,10 +15,10 @@
     "static/media/nav-icon2.svg": "/Portfolio-react/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
     "static/media/burger-menu-svgrepo-com.svg": "/Portfolio-react/static/media/burger-menu-svgrepo-com.5116021868d762ff7705e2bd01f10bbf.svg",
     "main.fdf69429.css.map": "/Portfolio-react/static/css/main.fdf69429.css.map",
-    "main.10537a87.js.map": "/Portfolio-react/static/js/main.10537a87.js.map"
+    "main.69b169fe.js.map": "/Portfolio-react/static/js/main.69b169fe.js.map"
   },
   "entrypoints": [
     "static/css/main.fdf69429.css",
-    "static/js/main.10537a87.js"
+    "static/js/main.69b169fe.js"
   ]
 }
