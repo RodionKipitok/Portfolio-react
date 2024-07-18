@@ -55,10 +55,15 @@ const initialSkills = [
     name: 'Redux',
     url: redux,
   },
+  {
+    id: 9,
+    name: 'bush',
+    url: bash,
+  },
 ];
 
 const Slider = () => {
-  const [skills, setSkills] = useState(initialSkills);
+  const [skills] = useState(initialSkills);
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {

@@ -52,13 +52,13 @@ const Projects = () => {
 
           <ul>
             <li className="item-one">
-              <a>Page 1</a>
+              <a href='/'>Page 1</a>
             </li>
             <li className=" item-two">
-              <a>Page 2</a>
+              <a href='/'>Page 2</a>
             </li>
             <li className="item-three">
-              <a>Page 3</a>
+              <a href='/'>Page 3</a>
             </li>
           </ul>
 

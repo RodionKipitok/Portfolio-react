@@ -1,4 +1,4 @@
-import Slider from '../Skills/Slider/Slider';
+// import Slider from '../Skills/Slider/Slider';
 import '../Skills/styles.css';
 const Skills = () => {
   return (
