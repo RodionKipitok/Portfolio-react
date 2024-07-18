@@ -4,7 +4,7 @@ import astronaut from '../../assets/img/header-img.svg';
 const Hero = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = ['web developer'];
+ 
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const period = 2000;
@@ -12,6 +12,7 @@ const Hero = () => {
   
 
   const tick = useCallback( () => {
+    const toRotate = ['web developer'];
     const i = loopNum % toRotate.length;
     const fullText = toRotate[i];
     let updatedText = isDeleting
@@ -32,7 +33,7 @@ const Hero = () => {
       setDelta(500);
     }
   }
-,[isDeleting, loopNum, text, toRotate, period])
+,[isDeleting, loopNum, text,period])
 
 useEffect(() => {
   const ticker = setInterval(() => {
