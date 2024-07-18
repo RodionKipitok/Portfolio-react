@@ -1,25 +1,17 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect ,useCallback } from 'react';
 import './style.css';
 import astronaut from '../../assets/img/header-img.svg';
 const Hero = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = ['wed developer'];
+  const toRotate = ['web developer'];
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const period = 2000;
 
-  useEffect(() => {
-    const ticker = setInterval(() => {
-      tick();
-    }, delta);
-    console.log('hi');
-    return () => {
-      clearInterval(ticker);
-    };
-  }, [text]);
+  
 
-  const tick = () => {
+  const tick = useCallback( () => {
     const i = loopNum % toRotate.length;
     const fullText = toRotate[i];
     let updatedText = isDeleting
@@ -39,8 +31,18 @@ const Hero = () => {
       setLoopNum(loopNum + 1);
       setDelta(500);
     }
-  };
+  }
+)
 
+useEffect(() => {
+  const ticker = setInterval(() => {
+    tick();
+  }, delta);
+
+  return () => {
+    clearInterval(ticker);
+  };
+}, [delta, tick]);
   return (
     <section className="banner" id="home">
       <div className="container">
