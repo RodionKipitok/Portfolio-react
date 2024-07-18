@@ -32,7 +32,7 @@ const Hero = () => {
       setDelta(500);
     }
   }
-)
+,[isDeleting, loopNum, text, toRotate, period])
 
 useEffect(() => {
   const ticker = setInterval(() => {
