@@ -1,5 +1,5 @@
 import ProjectCard from './ProjectCard';
-import projImg1 from '../../assets/img/localhost_3001_Portfolio-react (1).png';
+
 import projImg2 from '../../assets/img/project-img2.png';
 import projImg3 from '../../assets/img/project-img3.png';
 import '../Projects/style.css';
@@ -8,7 +8,7 @@ const Projects = () => {
     {
       title: 'Business Startup',
       description: 'Design & Development',
-      imgUrl: projImg1,
+      imgUrl: projImg2,
     },
     {
       title: 'Business Startup',
@@ -23,7 +23,7 @@ const Projects = () => {
     {
       title: 'Business Startup',
       description: 'Design & Development',
-      imgUrl: projImg1,
+      imgUrl: projImg3,
     },
     {
       title: 'Business Startup',
