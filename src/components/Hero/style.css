@@ -6,7 +6,7 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-.aligh-items-center {
+.align-items-center {
   display: flex;
 }
 
@@ -30,6 +30,15 @@
   line-height: 1.5em;
   width: 96%;
   text-align: justify;
+}
+
+
+.profession{
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
 }
 
 .banner .tagline {
@@ -83,10 +92,14 @@
     font-size: 35px;
   }
 
+  .profession{
+    font-size: 35px;
+  }
+
   .banner img {
     padding-top: 40px;
   }
-  .aligh-items-center {
+  .align-items-center {
     display: flex;
     flex-wrap: wrap;
   }

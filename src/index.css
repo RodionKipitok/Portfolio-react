@@ -3,42 +3,43 @@
 /* Custom Font */
 
 @font-face {
-  font-family: Centra;
-  src: url('../src/assets/font/CentraNo2-Bold.ttf');
-  font-weight: 700;
+   font-family: Centra;
+   src: url('../src/assets/font/CentraNo2-Bold.ttf');
+   font-weight: 700;
 }
 
 @font-face {
-  font-family: Centra;
-  src: url('../src/assets/font/CentraNo2-Medium.ttf');
-  font-weight: 500;
+   font-family: Centra;
+   src: url('../src/assets/font/CentraNo2-Medium.ttf');
+   font-weight: 500;
 }
 
 @font-face {
-  font-family: Centra;
-  src: url('../src/assets/font/CentraNo2-Book.ttf');
-  font-weight: 400;
+   font-family: Centra;
+   src: url('../src/assets/font/CentraNo2-Book.ttf');
+   font-weight: 400;
 }
 
 /* Default Css */
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   /* outline: 1PX solid aqua; */
 }
 
 html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 75px;
+   scroll-behavior: smooth;
+   scroll-padding-top: 75px;
 }
 
 body {
-  font-family: 'Centra', sans-serif !important;
-  font-weight: 400;
-  background-color: #121212 !important;
-  color: #fff;
-  overflow-x: hidden;
+   font-family: 'Centra', sans-serif !important;
+   font-weight: 400;
+   background-color: #121212 !important;
+   color: #fff;
+   overflow-x: hidden;
 }
 
 h1,
@@ -47,9 +48,9 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0;
-  padding: 0;
-  line-height: normal;
+   margin: 0;
+   padding: 0;
+   line-height: normal;
 }
 
 p,
@@ -57,40 +58,40 @@ a,
 li,
 button,
 ul {
-  margin: 0;
-  padding: 0;
-  line-height: normal;
-  text-decoration: none;
-  list-style-type: none;
+   margin: 0;
+   padding: 0;
+   line-height: normal;
+   text-decoration: none;
+   list-style-type: none;
 }
 
 a:hover {
-  text-decoration: none;
+   text-decoration: none;
 }
 
 img {
-  width: 100%;
-  height: auto;
+   width: 100%;
+   height: auto;
 }
 
 img,
 svg {
-  vertical-align: middle;
+   vertical-align: middle;
 }
 
 button {
-  border: 0;
-  background-color: transparent;
+   border: 0;
+   background-color: transparent;
 }
 
 input:focus,
 textarea:focus,
 select:focus {
-  outline: none;
+   outline: none;
 }
 
 .container {
-  margin: 0 auto;
-  padding: 0 15px;
-  max-width: 1320px;
+   margin: 0 auto;
+   padding: 0 15px;
+   max-width: 1320px;
 }

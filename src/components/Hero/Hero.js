@@ -47,11 +47,11 @@ useEffect(() => {
   return (
     <section className="banner" id="home">
       <div className="container">
-        <div className="aligh-items-center row">
+        <div className="align-items-center row">
           <div className="banner__title">
             <span className="tagline">Welcome to my Portfolio</span>
             <h1>
-              Hi! I'm Radion <span>{text}</span>
+              Hi! I'm Radion <span className='profession'>{text}</span>
             </h1>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting

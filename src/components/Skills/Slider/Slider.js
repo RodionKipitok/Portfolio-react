@@ -37,7 +37,6 @@ const initialSkills = [
   {
     id: 5,
     name: 'AXIUS',
-
     url: axios,
   },
   {
