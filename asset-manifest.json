@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-react/static/css/main.fdf69429.css",
-    "main.js": "/Portfolio-react/static/js/main.69b169fe.js",
+    "main.css": "/Portfolio-react/static/css/main.1ebd29e4.css",
+    "main.js": "/Portfolio-react/static/js/main.77eba769.js",
     "static/media/banner-bg.png": "/Portfolio-react/static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/header-img.svg": "/Portfolio-react/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
     "static/media/CentraNo2-Bold.ttf": "/Portfolio-react/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
@@ -9,16 +9,26 @@
     "static/media/CentraNo2-Book.ttf": "/Portfolio-react/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/project-img2.png": "/Portfolio-react/static/media/project-img2.2e52097c417f9f1134b0.png",
     "static/media/project-img3.png": "/Portfolio-react/static/media/project-img3.675b30d2f975a1bc1d09.png",
+    "static/media/react-original-wordmark.svg": "/Portfolio-react/static/media/react-original-wordmark.7c8375868df8c536ab4f2d4078519904.svg",
+    "static/media/axios-plain-wordmark.svg": "/Portfolio-react/static/media/axios-plain-wordmark.a69178d0c2ad1bc2c28141679903de4b.svg",
     "static/media/nav-icon3.svg": "/Portfolio-react/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
+    "static/media/bash-original.svg": "/Portfolio-react/static/media/bash-original.e22f475189b9c606a3cbac0a243a840d.svg",
+    "static/media/redux-original.svg": "/Portfolio-react/static/media/redux-original.2fa08b46b0c0e7372c20acbe86b2e39e.svg",
+    "static/media/javascript-original.svg": "/Portfolio-react/static/media/javascript-original.4c1b5332c1b1057928f6f06cf972c91c.svg",
+    "static/media/css3-original-wordmark.svg": "/Portfolio-react/static/media/css3-original-wordmark.1d023123249332b8246d98e506eaa7a6.svg",
+    "static/media/html5-original-wordmark.svg": "/Portfolio-react/static/media/html5-original-wordmark.ed5a66323fb7466700b1b551dcf00ea5.svg",
     "index.html": "/Portfolio-react/index.html",
     "static/media/nav-icon1.svg": "/Portfolio-react/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "static/media/nav-icon2.svg": "/Portfolio-react/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "static/media/burger-menu-svgrepo-com.svg": "/Portfolio-react/static/media/burger-menu-svgrepo-com.5116021868d762ff7705e2bd01f10bbf.svg",
-    "main.fdf69429.css.map": "/Portfolio-react/static/css/main.fdf69429.css.map",
-    "main.69b169fe.js.map": "/Portfolio-react/static/js/main.69b169fe.js.map"
+    "static/media/nav-icon2.svg": "/Portfolio-react/static/media/nav-icon2.e6e1052cc9200225c8c105897262cb6c.svg",
+    "static/media/arrow2.svg": "/Portfolio-react/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
+    "static/media/arrow1.svg": "/Portfolio-react/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
+    "static/media/materialui-original.svg": "/Portfolio-react/static/media/materialui-original.87264df237ee700ba78bb58ff701a6d3.svg",
+    "static/media/npm-original-wordmark.svg": "/Portfolio-react/static/media/npm-original-wordmark.87689eab730642c86d2b01f3ef4a19e3.svg",
+    "main.1ebd29e4.css.map": "/Portfolio-react/static/css/main.1ebd29e4.css.map",
+    "main.77eba769.js.map": "/Portfolio-react/static/js/main.77eba769.js.map"
   },
   "entrypoints": [
-    "static/css/main.fdf69429.css",
-    "static/js/main.69b169fe.js"
+    "static/css/main.1ebd29e4.css",
+    "static/js/main.77eba769.js"
   ]
 }
