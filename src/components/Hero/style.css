@@ -1,108 +1,107 @@
 .banner {
-  margin-top: 0;
-  padding: 260px 0 100px 0;
-  background-image: url('../../assets/img/banner-bg.png');
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
+   margin-top: 0;
+   padding: 260px 0 100px 0;
+   background-image: url('../../assets/img/banner-bg.png');
+   background-position: top center;
+   background-size: cover;
+   background-repeat: no-repeat;
 }
 .align-items-center {
-  display: flex;
+   display: flex;
 }
 
 .banner__title {
-  width: 746px;
+   width: 746px;
 }
 
 .banner h1 {
-  font-size: 65px;
-  font-weight: 700;
-  letter-spacing: 0.8px;
-  line-height: 1;
-  margin-bottom: 20px;
-  display: block;
+   font-size: 65px;
+   font-weight: 700;
+   letter-spacing: 0.8px;
+   line-height: 1;
+   margin-bottom: 20px;
+   display: block;
 }
 
 .banner p {
-  color: #b8b8b8;
-  font-size: 18px;
-  letter-spacing: 0.8px;
-  line-height: 1.5em;
-  width: 96%;
-  text-align: justify;
+   color: #b8b8b8;
+   font-size: 18px;
+   letter-spacing: 0.8px;
+   line-height: 1.5em;
+   width: 96%;
+   text-align: justify;
 }
 
-
-.profession{
-  font-weight: 700;
-  letter-spacing: 0.8px;
-  line-height: 1;
-  margin-bottom: 20px;
-  display: block;
+.profession {
+   font-weight: 700;
+   letter-spacing: 0.8px;
+   line-height: 1;
+   margin-bottom: 20px;
+   display: block;
 }
 
 .banner .tagline {
-  letter-spacing: 0.8px;
-  padding: 8px 10px;
-  background: linear-gradient(
-    90.21deg,
-    rgba(170, 54, 124, 0.5) -5.91%,
-    rgba(74, 47, 189, 0.5) 111.58%
-  );
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  font-size: 20px;
-  margin-bottom: 16px;
-  display: inline-block;
+   letter-spacing: 0.8px;
+   padding: 8px 10px;
+   background: linear-gradient(
+      90.21deg,
+      rgba(170, 54, 124, 0.5) -5.91%,
+      rgba(74, 47, 189, 0.5) 111.58%
+   );
+   border: 1px solid rgba(255, 255, 255, 0.5);
+   font-size: 20px;
+   margin-bottom: 16px;
+   display: inline-block;
 }
 
 .banner img {
-  animation: updown 3s linear infinite;
+   animation: updown 3s linear infinite;
 }
 
 @keyframes updown {
-  0% {
-    transform: translateY(-20px);
-  }
-  50% {
-    transform: translateY(20px);
-  }
-  100% {
-    transform: translateY(-20px);
-  }
+   0% {
+      transform: translateY(-20px);
+   }
+   50% {
+      transform: translateY(20px);
+   }
+   100% {
+      transform: translateY(-20px);
+   }
 }
 
 .banner button {
-  color: #fff;
-  font-weight: 700;
-  font-size: 20px;
-  margin-top: 60px;
-  letter-spacing: 0.8px;
-  display: flex;
-  align-items: center;
+   color: #fff;
+   font-weight: 700;
+   font-size: 20px;
+   margin-top: 60px;
+   letter-spacing: 0.8px;
+   display: flex;
+   align-items: center;
 }
 
 /* // Устройства X-Small (портретные телефоны, менее 576 пикселей) */
 
 @media (max-width: 575.98px) {
-  .banner {
-    padding-top: 100px;
-  }
+   .banner {
+      padding-top: 350px;
+   }
 
-  .banner h1 {
-    font-size: 35px;
-  }
+   .banner h1 {
+      font-size: 35px;
+   }
 
-  .profession{
-    font-size: 35px;
-  }
+   .profession {
+      font-size: 35px;
+   }
 
-  .banner img {
-    padding-top: 40px;
-  }
-  .align-items-center {
-    display: flex;
-    flex-wrap: wrap;
-  }
+   .banner img {
+      padding-top: 40px;
+   }
+   .align-items-center {
+      display: flex;
+      flex-wrap: wrap;
+   }
 }
 
 /* Устройства Small (телефоны с горизонтальной ориентацией, менее 768 пикселей) */
