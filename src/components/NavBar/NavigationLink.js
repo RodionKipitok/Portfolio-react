@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import SocialLink from './SocialLink';
 
-function NavigationLink() {
+function NavigationLink(props) {
    const [activelink, setActiveLink] = useState('home');
+   console.log(props);
    return (
       <>
          <ul className="nav-list">
@@ -16,6 +17,7 @@ function NavigationLink() {
                   }
                   onClick={() => {
                      setActiveLink('home');
+                     props.setIsOpenMenuMobile(!props.isOpen);
                   }}
                >
                   Home
@@ -31,6 +33,7 @@ function NavigationLink() {
                   }
                   onClick={() => {
                      setActiveLink('project');
+                     props.setIsOpenMenuMobile(!props.isOpen);
                   }}
                >
                   Project
@@ -46,6 +49,7 @@ function NavigationLink() {
                   }
                   onClick={() => {
                      setActiveLink('skills');
+                     props.setIsOpenMenuMobile(!props.isOpen);
                   }}
                >
                   Skills

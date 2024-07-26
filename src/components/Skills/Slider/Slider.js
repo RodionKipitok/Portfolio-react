@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import axios from '../../../assets/icon/axios-plain-wordmark.svg';
 import bash from '../../../assets/icon/bash-original.svg';
-import css3 from '../../../assets/icon/css3-original-wordmark.svg';
-import html5 from '../../../assets/icon/html5-original-wordmark.svg';
+import css3 from '../../../assets/icon/CSS Icon.svg';
+import html5 from '../../../assets/icon/html-svgrepo-com.svg';
 import javaScript from '../../../assets/icon/javascript-original.svg';
 import materialui from '../../../assets/icon/materialui-original.svg';
 import react from '../../../assets/icon/react-original-wordmark.svg';

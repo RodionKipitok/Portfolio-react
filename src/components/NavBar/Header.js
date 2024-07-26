@@ -28,8 +28,12 @@ const NavBar = () => {
                <a href="/" className="nav-logo">
                   <strong>Radion Kuchernuk</strong>
                </a>
-               <nav className={`nav ${isOpen ? 'open' : ''}`}>
-                  <NavigationLink />
+               <nav
+                  className={`nav ${isOpen ? 'open' : ''} ${
+                     isOpen ? 'scrolled' : ''
+                  }`}
+               >
+                  <NavigationLink isOpen={isOpen} setIsOpenMenuMobile={setIsOpen} />
                </nav>
                <div className={`burger ${isOpen ? 'active' : ''}`}>
                   <button

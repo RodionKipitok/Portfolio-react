@@ -3,7 +3,7 @@
 .header {
    position: fixed;
    width: 100%;
-   height: 68px;
+   height: 85px;
    top: 0;
    z-index: 9999;
    transition: 0.32s ease-in-out;
@@ -41,14 +41,25 @@
 }
 
 .nav-list__item-link {
+   display: inline-block;
+   position: relative;
    font-weight: 400;
-   color: #fff !important;
+   background: linear-gradient(to right, #8254ff, #8254ff 50%, #fff 50%);
    letter-spacing: 0.8px;
    padding: 0 25px;
    font-size: 18px;
    opacity: 0.75;
+   overflow: hidden;
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-size: 200% 100%;
+   background-position: 100%;
+   transition: background-position 275ms ease;
 }
 
+.nav-list__item-link:hover {
+   background-position: 0 100%;
+}
 .active-link {
    opacity: 1;
 }
@@ -205,6 +216,7 @@
       margin: 0;
       width: 100%;
       height: 200px;
+
       transition: transform 0.3s ease-out;
    }
 
@@ -225,11 +237,26 @@
 /* Устройства Small (телефоны с горизонтальной ориентацией, менее 768 пикселей) */
 
 @media (max-width: 767.98px) {
+   .nav {
+      margin-left: 0;
+   }
+
+   .btn-contact {
+      text-wrap: nowrap;
+      font-size: 14px;
+      padding: 8px 19px;
+   }
 }
 
 /* // Устройства Medium (планшеты, менее 992 пикселей) */
 
 @media (max-width: 991.98px) {
+   .nav {
+      margin-left: 0;
+   }
+   .social-icon {
+      display: none;
+   }
 }
 
 /* // Устройства Large (настольные компьютеры, менее 1200 пикселей) */
