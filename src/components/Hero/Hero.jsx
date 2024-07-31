@@ -14,8 +14,6 @@ const Hero = () => {
       threshold: 0.5,
    });
 
-   console.log(inView);
-
    const tick = useCallback(() => {
       const toRotate = ['web developer'];
       const i = loopNum % toRotate.length;
