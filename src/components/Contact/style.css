@@ -5,7 +5,7 @@
 .contact__wrapper-img-and-form {
    display: grid;
    grid-template-columns: 1fr 1fr;
-   padding-top: 55px;
+   padding: 50px;
 }
 
 .contact img {
