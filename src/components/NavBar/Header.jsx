@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import '../NavBar/style.css';
-import NavigationLink from '../NavBar/NavigationLink';
+import NavigationLink from './NavigationLink';
 import React from 'react';
 
 const NavBar = () => {

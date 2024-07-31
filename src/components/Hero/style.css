@@ -81,6 +81,26 @@
    }
 }
 
+.animate__zoomIn{
+   animation-name: animate__zoomIn;
+}
+
+@keyframes animate__zoomIn {
+   0% {
+      opacity: 0;
+      transform: scale3d(0.3, 0.3, 0.3);
+   }
+   50% {
+      opacity: 1;
+   }
+}
+
+.animate__animated{
+   animation-iteration-count:1;
+   animation-duration: 1s;
+   animation-fill-mode: both;
+}
+
 .banner button {
    color: #fff;
    font-weight: 700;

@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
+import { useInView } from 'react-intersection-observer';
 import './style.css';
 import astronaut from '../../assets/img/header-img.svg';
 const Hero = () => {
@@ -8,6 +9,12 @@ const Hero = () => {
    const [text, setText] = useState('');
    const [delta, setDelta] = useState(300 - Math.random() * 100);
    const period = 2000;
+
+   const { ref, inView } = useInView({
+      threshold: 0.5,
+   });
+
+   console.log(inView);
 
    const tick = useCallback(() => {
       const toRotate = ['web developer'];
@@ -42,7 +49,7 @@ const Hero = () => {
       };
    }, [delta, tick]);
    return (
-      <section className="banner" id="home">
+      <section ref={ref} className="banner" id="home">
          <div className="container">
             <div className="align-items-center row">
                <div className="banner__title">
@@ -57,8 +64,10 @@ const Hero = () => {
                   </p>
                   <button type="button">Let's contact</button>
                </div>
-               <div>
-                  <img src={astronaut} alt="" />
+               <div
+                  className={inView ? 'animate__zoomIn  animate__animated' : ''}
+               >
+                  <img src={astronaut} alt="astronaut" />
                </div>
             </div>
          </div>

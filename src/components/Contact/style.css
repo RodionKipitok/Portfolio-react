@@ -1,0 +1,57 @@
+.contact {
+   background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
+}
+
+.contact__wrapper-img-and-form {
+   display: flex;
+}
+
+
+.contact img {
+   width: 92%;
+}
+
+.contact-heading {
+   font-size: 45px;
+   font-weight: 700;
+   margin-bottom: 30px;
+}
+
+.formContact {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.formContact input {
+   width: 100%;
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 0.8px;
+   margin: 0 0 8px 0;
+   padding: 19px 26px;
+   border: 1px solid rgba(255, 255, 255, 0.5);
+   border-radius: 20px;
+   color: #fff;
+   background: rgba(255, 255, 255, 0.1);
+}
+
+.formContact textarea {
+   font-weight: 500;
+   font-size: 18px;
+   letter-spacing: 0.8px;
+   margin: 0 0 8px 0;
+   padding: 19px 26px;
+   border: 1px solid rgba(255, 255, 255, 0.5);
+   border-radius: 20px;
+   color: #fff;
+   background: rgba(255, 255, 255, 0.1);
+}
+
+.formContact button {
+   font-size: 18px;
+   font-weight: 700;
+   color: #121212;
+   padding: 18px 45px;
+   background: #fff;
+   border-radius: 5px;
+}

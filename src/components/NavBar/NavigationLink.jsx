@@ -3,7 +3,7 @@ import SocialLink from './SocialLink';
 
 function NavigationLink(props) {
    const [activelink, setActiveLink] = useState('home');
-   console.log(props);
+
    return (
       <>
          <ul className="nav-list">
