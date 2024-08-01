@@ -1,18 +1,18 @@
 import ProjectCard from './ProjectCard';
-
+import projectImg from '../../assets/project/rodionkipitok.github.io_Portfolio_.png'
 import projImg2 from '../../assets/img/project-img2.png';
 import projImg3 from '../../assets/img/project-img3.png';
 import '../Projects/style.css';
 const Projects = () => {
    const projects = [
       {
-         title: 'Business Startup',
+         title: 'Freelancer landing page',
          description: 'Design & Development',
-         imgUrl: projImg2,
+         imgUrl: projectImg,
       },
       {
          title: 'Business Startup',
-         description: 'Design & Development',
+         description: 'Development',
          imgUrl: projImg2,
       },
       {

@@ -283,6 +283,12 @@
    }
 }
 
+@media (min-width: 300px) and (max-width: 850px) {
+   .social-icon {
+      display: none;
+   }
+}
+
 /* // Устройства Medium (планшеты, менее 992 пикселей) */
 
 @media (max-width: 991.98px) {

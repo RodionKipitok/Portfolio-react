@@ -76,6 +76,8 @@
 @media (max-width: 575.98px) {
    .contact__wrapper-img-and-form {
       display: block;
+      text-align: center;
+      padding: 20px;
    }
    .formContact {
       grid-template-columns: 1fr;
@@ -88,7 +90,7 @@
 
 /* Устройства Small (телефоны с горизонтальной ориентацией, менее 768 пикселей) */
 
-@media (max-width: 767.98px) {
+@media (min-width: 575.98) and (max-width: 767.98px) {
 }
 
 /* // Устройства Medium (планшеты, менее 992 пикселей) */
