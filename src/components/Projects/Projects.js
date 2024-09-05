@@ -5,7 +5,7 @@ import projectsList from '../../helpers/projectList'
 import '../Projects/style.css';
 const Projects = () => {
    return (
-      <section className="project" id="project">
+      <section className="projects" id="project">
          <div className="container">
             <div className="wrapper-content">
                <div className="project__titel">
