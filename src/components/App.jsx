@@ -13,20 +13,19 @@ import { Routes, Route } from 'react-router-dom';
 export const App = () => {
    return (
       <div className="page">
-         
-            <ScrollToTop />
-            <NavBar />
+         <ScrollToTop />
+         <NavBar />
 
-            <Routes>
-               <Route path="/home" element={<Hero />} />
-               <Route path="/skills" element={<Skills />} />
-               <Route path="/projects" element={<Projects />} />
-               <Route path="/project/:id" element={<Project />} />
-               <Route path="/feedback" element={<Feedback />} />
-            </Routes>
+         <Routes>
+            <Route path="/Portfolio-react/home" element={<Hero />} />
+            <Route path="/home" element={<Hero />} />
+            <Route path="/skills" element={<Skills />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/project/:id" element={<Project />} />
+            <Route path="/feedback" element={<Feedback />} />
+         </Routes>
 
-            <Footer />
-        
+         <Footer />
       </div>
    );
 };
