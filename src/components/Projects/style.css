@@ -110,6 +110,7 @@
    transition: 0.5s ease-in-out;
    opacity: 0;
    width: 100%;
+   color: #fff;
 }
 
 .proj-imgbx:hover .proj-txtx {
@@ -118,10 +119,11 @@
 }
 
 .proj-txtx h4 {
-   font-size: 34px;
+   font-size: 31px;
    font-weight: 700;
    letter-spacing: 0.8px;
    line-height: 1.1em;
+   margin-bottom: 10px;
 }
 .proj-txtx span {
    font-style: italic;
