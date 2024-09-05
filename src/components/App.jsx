@@ -8,12 +8,12 @@ import Footer from './Footer/Footer';
 
 import ScrollToTop from 'utils/ScrollToTop';
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 export const App = () => {
    return (
-      <div className='page'>
-         <Router  basename='Portfolio-react'>
+      <div className="page">
+         
             <ScrollToTop />
             <NavBar />
 
@@ -26,7 +26,7 @@ export const App = () => {
             </Routes>
 
             <Footer />
-         </Router>
+        
       </div>
    );
 };
