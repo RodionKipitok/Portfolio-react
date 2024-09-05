@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-react/static/css/main.ec66038b.css",
-    "main.js": "/Portfolio-react/static/js/main.30ff73d9.js",
+    "main.css": "/Portfolio-react/static/css/main.6eee998a.css",
+    "main.js": "/Portfolio-react/static/js/main.92158cc9.js",
     "static/media/rodionkipitok.github.io_Portfolio_.png": "/Portfolio-react/static/media/rodionkipitok.github.io_Portfolio_.c5863f5dfb54fc3e73fe.png",
     "static/media/color-sharp.png": "/Portfolio-react/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/banner-bg.png": "/Portfolio-react/static/media/banner-bg.cc1273af450504afe755.png",
@@ -28,11 +28,11 @@
     "static/media/CSS Icon.svg": "/Portfolio-react/static/media/CSS Icon.499bcc2f189bdc49da531ec830f2db4f.svg",
     "static/media/materialui-original.svg": "/Portfolio-react/static/media/materialui-original.87264df237ee700ba78bb58ff701a6d3.svg",
     "static/media/npm-original-wordmark.svg": "/Portfolio-react/static/media/npm-original-wordmark.87689eab730642c86d2b01f3ef4a19e3.svg",
-    "main.ec66038b.css.map": "/Portfolio-react/static/css/main.ec66038b.css.map",
-    "main.30ff73d9.js.map": "/Portfolio-react/static/js/main.30ff73d9.js.map"
+    "main.6eee998a.css.map": "/Portfolio-react/static/css/main.6eee998a.css.map",
+    "main.92158cc9.js.map": "/Portfolio-react/static/js/main.92158cc9.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec66038b.css",
-    "static/js/main.30ff73d9.js"
+    "static/css/main.6eee998a.css",
+    "static/js/main.92158cc9.js"
   ]
 }
