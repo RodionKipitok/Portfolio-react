@@ -13,7 +13,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 export const App = () => {
    return (
       <div className='page'>
-         <Router>
+         <Router  basename='Portfolio-react'>
             <ScrollToTop />
             <NavBar />
 
