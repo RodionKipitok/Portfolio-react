@@ -1,4 +1,6 @@
 import { useState, useEffect } from 'react';
+import { NavLink } from 'react-router-dom';
+
 import '../NavBar/style.css';
 import NavigationLink from './NavigationLink';
 import React from 'react';
@@ -25,15 +27,18 @@ const NavBar = () => {
       <header className={` header ${scrolled ? 'scrolled' : ''}`}>
          <div className="container">
             <div className="wrapper-position">
-               <a href="/" className="nav-logo">
+               <NavLink to="/" className="nav-logo">
                   <strong>Radion Kuchernuk</strong>
-               </a>
+               </NavLink>
                <nav
                   className={`nav ${isOpen ? 'open' : ''} ${
                      isOpen ? 'scrolled' : ''
                   }`}
                >
-                  <NavigationLink isOpen={isOpen} setIsOpenMenuMobile={setIsOpen} />
+                  <NavigationLink
+                     isOpen={isOpen}
+                     setIsOpenMenuMobile={setIsOpen}
+                  />
                </nav>
                <div className={`burger ${isOpen ? 'active' : ''}`}>
                   <button

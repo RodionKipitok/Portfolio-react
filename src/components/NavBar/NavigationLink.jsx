@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import { NavLink } from 'react-router-dom';
+
 import SocialLink from './SocialLink';
 
 function NavigationLink(props) {
@@ -8,8 +10,8 @@ function NavigationLink(props) {
       <>
          <ul className="nav-list">
             <li className="nav-list__item">
-               <a
-                  href="#home"
+               <NavLink
+                  to="home"
                   className={
                      activelink === 'home'
                         ? 'nav-list__item-link active-link'
@@ -21,11 +23,11 @@ function NavigationLink(props) {
                   }}
                >
                   Home
-               </a>
+               </NavLink>
             </li>
             <li className="nav-list__item">
-               <a
-                  href="#project"
+               <NavLink
+                  to="project"
                   className={
                      activelink === 'project'
                         ? 'nav-list__item-link active-link'
@@ -37,11 +39,11 @@ function NavigationLink(props) {
                   }}
                >
                   Project
-               </a>
+               </NavLink>
             </li>
             <li className="nav-list__item">
-               <a
-                  href="#skills"
+               <NavLink
+                  to="skills"
                   className={
                      activelink === 'skills'
                         ? 'nav-list__item-link active-link'
@@ -53,7 +55,7 @@ function NavigationLink(props) {
                   }}
                >
                   Skills
-               </a>
+               </NavLink>
             </li>
          </ul>
          <SocialLink />

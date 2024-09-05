@@ -1,5 +1,5 @@
 import freelancerLandingPage from '../assets/project/rodionkipitok.github.io_Portfolio_.png';
-import webStudio from '../assets/project/webStudio.png';
+// import webStudio from '../assets/project/webStudio.png';
 import projImg2 from '../assets/img/project-img2.png';
 import projImg3 from '../assets/img/project-img3.png';
 
@@ -17,7 +17,7 @@ const projects = [
       id: 2,
       title: 'Web Studio landing page',
       description: 'Development',
-      imgUrl: webStudio,
+      imgUrl: projImg2,
       technologies: ['CSS3', 'HTML5', 'JavaScript'],
       linkCodeGitHub: 'https://github.com/RodionKipitok/Web-Studio',
       linkGitHubPage: 'https://rodionkipitok.github.io/Web-Studio/',

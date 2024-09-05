@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom';
 
-import projectList from '../helpers/projectsList';
+import projectList from '../helpers/projectList';
 
 import '../pages/styles.css';
 
