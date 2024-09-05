@@ -1,3 +1,5 @@
+import { NavLink } from 'react-router-dom';
+
 import navIcon1 from '../../assets/img/nav-icon1.svg';
 import navIcon2 from '../../assets/img/nav-icon2.svg';
 import navIcon3 from '../../assets/img/nav-icon3.svg';
@@ -7,10 +9,10 @@ const Footer = () => {
    return (
       <footer className="footer">
          <div className="container">
-            <div className='footer__align-items'>
-               <a href="/" className="nav-logo">
+            <div className="footer__align-items">
+               <NavLink href="/" className="nav-logo">
                   <strong>Radion Kuchernuk</strong>
-               </a>
+               </NavLink>
                <div className="social-icon">
                   <a href="https://ua.linkedin.com/">
                      <img src={navIcon1} alt="link-linkedin" />
