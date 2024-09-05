@@ -1,0 +1,113 @@
+/* utils */
+:root {
+   --black: #171718;
+   --black-border: #26292d;
+   --white: #fff;
+   --purple: #5c62ec;
+   --text-color: var(--black);
+   --dark-bg: var(--black);
+   --dark-border: var(--black-border);
+   --header-text: var(--white);
+   --accent: var(--purple);
+}
+.container-project {
+   margin: 0 auto;
+   padding: 0 15px;
+   max-width: 1200px;
+}
+
+/* Page Project  */
+.section-project {
+   padding: 70px 0;
+}
+.projects__headline {
+   margin-top: 20px;
+   margin-bottom: 35px;
+   font-size: 60px;
+   font-weight: 700;
+   line-height: 1.3;
+   color: var(--white);
+   text-align: center;
+}
+.projects {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   column-gap: 30px;
+   row-gap: 30px;
+}
+
+.project {
+   max-width: 370px;
+   color: var(--project-card-text);
+   background-color: var(--project-bg-title-card);
+   transition: transform 0.3s ease-in;
+   border-radius: 10px;
+   box-shadow: var(--box-shadow);
+}
+
+.project:hover {
+   transform: scale(1.1);
+}
+.project:focus {
+   transform: rotate(180deg);
+}
+
+.project__img {
+   border-radius: 10px 10px 0 0;
+}
+
+.project__title {
+   padding: 15px 20px 25px;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 1.3;
+   color: var(--project-card-text);
+}
+
+/* Project details */
+
+.project-detalis {
+   margin: 0 auto;
+   max-width: 700px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.project-detalis__cover {
+   max-width: 100%;
+   margin-bottom: 40px;
+   box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.25);
+   border-radius: 10px;
+}
+.project-ditalis-disc {
+   display: flex;
+   column-gap: 10px;
+   margin-bottom: 30px;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 1.3;
+}
+
+.btn-outline {
+   display: flex;
+   column-gap: 10px;
+   align-items: center;
+   height: 48px;
+   padding: 12px 20px;
+   border: 1px solid var(--black);
+   border-radius: 5px;
+   color: var(--black);
+   background-color: var(--white);
+   transition: opacity 0.2s ease-in;
+}
+
+.btn-outline-img {
+   width: 24px;
+   height: 24px;
+}
+
+.wrapper-link {
+   display: flex;
+   column-gap: 10px;
+}
