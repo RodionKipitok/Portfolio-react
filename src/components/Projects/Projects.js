@@ -1,6 +1,7 @@
-import ProjectCard from './ProjectCard';
-import projectsList from '../../helpers/projectList'
+import { NavLink } from 'react-router-dom';
 
+import ProjectCard from './ProjectCard';
+import projectsList from '../../helpers/projectList';
 
 import '../Projects/style.css';
 const Projects = () => {
@@ -49,7 +50,11 @@ const Projects = () => {
 
                <div className="project__dashboard">
                   {projectsList.map((project, index) => {
-                     return <ProjectCard key={index} {...project} />;
+                     return (
+                        <NavLink key={project.id} to={`/project/${index}`}>
+                           <ProjectCard {...project} />
+                        </NavLink>
+                     );
                   })}
                </div>
             </div>
