@@ -27,7 +27,7 @@ function NavigationLink(props) {
             </li>
             <li className="nav-list__item">
                <NavLink
-                  to="project"
+                  to="projects"
                   className={
                      activelink === 'project'
                         ? 'nav-list__item-link active-link'
@@ -59,9 +59,9 @@ function NavigationLink(props) {
             </li>
          </ul>
          <SocialLink />
-         <button type="button" className="btn-contact">
+         <NavLink to="feedback" className="btn-contact">
             <span> Let's contact</span>
-         </button>
+         </NavLink>
       </>
    );
 }

@@ -27,7 +27,7 @@ const NavBar = () => {
       <header className={` header ${scrolled ? 'scrolled' : ''}`}>
          <div className="container">
             <div className="wrapper-position">
-               <NavLink to="/" className="nav-logo">
+               <NavLink to="home" className="nav-logo">
                   <strong>Radion Kuchernuk</strong>
                </NavLink>
                <nav

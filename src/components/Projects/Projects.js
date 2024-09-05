@@ -1,41 +1,9 @@
 import ProjectCard from './ProjectCard';
-import projectImg from '../../assets/project/rodionkipitok.github.io_Portfolio_.png'
-import projImg2 from '../../assets/img/project-img2.png';
-import projImg3 from '../../assets/img/project-img3.png';
+import projectsList from '../../helpers/projectList'
+
+
 import '../Projects/style.css';
 const Projects = () => {
-   const projects = [
-      {
-         title: 'Freelancer landing page',
-         description: 'Design & Development',
-         imgUrl: projectImg,
-      },
-      {
-         title: 'Business Startup',
-         description: 'Development',
-         imgUrl: projImg2,
-      },
-      {
-         title: 'Business Startup',
-         description: 'Design & Development',
-         imgUrl: projImg3,
-      },
-      {
-         title: 'Business Startup',
-         description: 'Design & Development',
-         imgUrl: projImg3,
-      },
-      {
-         title: 'Business Startup',
-         description: 'Design & Development',
-         imgUrl: projImg2,
-      },
-      {
-         title: 'Business Startup',
-         description: 'Design & Development',
-         imgUrl: projImg3,
-      },
-   ];
    return (
       <section className="project" id="project">
          <div className="container">
@@ -80,7 +48,7 @@ const Projects = () => {
                </ul>
 
                <div className="project__dashboard">
-                  {projects.map((project, index) => {
+                  {projectsList.map((project, index) => {
                      return <ProjectCard key={index} {...project} />;
                   })}
                </div>
