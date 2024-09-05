@@ -26,7 +26,6 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-  
 }
 
 html {
@@ -94,4 +93,11 @@ select:focus {
    margin: 0 auto;
    padding: 0 15px;
    max-width: 1320px;
+}
+
+.page {
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
 }
