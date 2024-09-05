@@ -9,7 +9,6 @@ function Project() {
    const project = projectList[id];
 
    const {
-      description,
       imgUrl,
       linkGitHubPage,
       linkCodeGitHub,
