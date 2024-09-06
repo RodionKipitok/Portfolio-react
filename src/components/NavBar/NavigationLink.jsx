@@ -59,9 +59,9 @@ function NavigationLink(props) {
             </li>
          </ul>
          <SocialLink />
-         <NavLink to="feedback" className="btn-contact">
+         {/* <NavLink to="feedback" className="btn-contact">
             <span> Let's contact</span>
-         </NavLink>
+         </NavLink> */}
       </>
    );
 }
