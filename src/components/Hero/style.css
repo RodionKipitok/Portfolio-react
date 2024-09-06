@@ -81,7 +81,7 @@
    }
 }
 
-.animate__zoomIn{
+.animate__zoomIn {
    animation-name: animate__zoomIn;
 }
 
@@ -95,13 +95,13 @@
    }
 }
 
-.animate__animated{
-   animation-iteration-count:1;
+.animate__animated {
+   animation-iteration-count: 1;
    animation-duration: 1s;
    animation-fill-mode: both;
 }
 
-.banner button {
+.link-contact {
    color: #fff;
    font-weight: 700;
    font-size: 20px;

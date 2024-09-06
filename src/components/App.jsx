@@ -18,7 +18,6 @@ export const App = () => {
 
          <Routes>
             <Route path="/Portfolio-react/home" element={<Hero />} />
-            <Route path="/home" element={<Hero />} />
             <Route path="/skills" element={<Skills />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/project/:id" element={<Project />} />
