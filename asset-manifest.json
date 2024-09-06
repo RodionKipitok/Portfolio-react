@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/Portfolio-react/static/css/main.73cc4d5c.css",
-    "main.js": "/Portfolio-react/static/js/main.e71632ad.js",
-    "static/media/rodionkipitok.github.io_Portfolio_.png": "/Portfolio-react/static/media/rodionkipitok.github.io_Portfolio_.c5863f5dfb54fc3e73fe.png",
+    "main.js": "/Portfolio-react/static/js/main.7d2e3a1f.js",
     "static/media/color-sharp.png": "/Portfolio-react/static/media/color-sharp.bea361cfef80fefc2d1e.png",
+    "static/media/Web-Studio.png": "/Portfolio-react/static/media/Web-Studio.3bbe5f98725fd75710df.png",
     "static/media/banner-bg.png": "/Portfolio-react/static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/header-img.svg": "/Portfolio-react/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
     "static/media/CentraNo2-Bold.ttf": "/Portfolio-react/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
@@ -11,6 +11,7 @@
     "static/media/CentraNo2-Book.ttf": "/Portfolio-react/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/footer-bg.png": "/Portfolio-react/static/media/footer-bg.7bd67c0f73571d0acc02.png",
     "static/media/project-img2.png": "/Portfolio-react/static/media/project-img2.2e52097c417f9f1134b0.png",
+    "static/media/Portfolio.png": "/Portfolio-react/static/media/Portfolio.e1712a70500b8eefe8a6.png",
     "static/media/project-img3.png": "/Portfolio-react/static/media/project-img3.675b30d2f975a1bc1d09.png",
     "static/media/react-original-wordmark.svg": "/Portfolio-react/static/media/react-original-wordmark.7c8375868df8c536ab4f2d4078519904.svg",
     "static/media/axios-plain-wordmark.svg": "/Portfolio-react/static/media/axios-plain-wordmark.a69178d0c2ad1bc2c28141679903de4b.svg",
@@ -28,10 +29,10 @@
     "static/media/materialui-original.svg": "/Portfolio-react/static/media/materialui-original.87264df237ee700ba78bb58ff701a6d3.svg",
     "static/media/npm-original-wordmark.svg": "/Portfolio-react/static/media/npm-original-wordmark.87689eab730642c86d2b01f3ef4a19e3.svg",
     "main.73cc4d5c.css.map": "/Portfolio-react/static/css/main.73cc4d5c.css.map",
-    "main.e71632ad.js.map": "/Portfolio-react/static/js/main.e71632ad.js.map"
+    "main.7d2e3a1f.js.map": "/Portfolio-react/static/js/main.7d2e3a1f.js.map"
   },
   "entrypoints": [
     "static/css/main.73cc4d5c.css",
-    "static/js/main.e71632ad.js"
+    "static/js/main.7d2e3a1f.js"
   ]
 }
