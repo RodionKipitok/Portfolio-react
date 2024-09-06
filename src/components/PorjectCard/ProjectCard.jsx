@@ -1,4 +1,6 @@
-import '../Projects/style.css';
+import '../PorjectCard/style.css';
+
+
 const ProjectCard = ({ title, description, imgUrl }) => {
   return (
     <div className="proj-imgbx">

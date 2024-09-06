@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 
-import ProjectCard from './ProjectCard';
+import ProjectCard from '../../components/PorjectCard/ProjectCard';
 import projectsList from '../../helpers/projectList';
 
 import '../Projects/style.css';

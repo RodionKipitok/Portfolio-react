@@ -1,20 +1,6 @@
 :root {
    --transition: all 0.3s linear;
 }
-.skills {
-   background-image: url(../../assets/img/color-sharp.png);
-   background-repeat: no-repeat;
-   background-color: #121212;
-   background-position: bottom left;
-   border: none;
-}
-
-.skills__title {
-   font-size: 45px;
-   font-weight: 700;
-   text-align: center;
-    margin-top: 100px;
-}
 
 .slider__track {
    margin: 0 auto;

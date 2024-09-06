@@ -4,10 +4,10 @@ import navIcon3 from '../../assets/img/nav-icon3.svg';
 const SocialLink = () => {
    return (
       <div className="social-icon">
-         <a href="https://ua.linkedin.com/">
+         <a href="https://www.linkedin.com/in/radion-kuchernyuk-b755b1206/">
             <img src={navIcon1} alt="link-linkedin" />
          </a>
-         <a href="https://x.com">
+         <a href="https://x.com/Rodion80158024">
             <img src={navIcon2} alt="link-x" />
          </a>
          <a href="https://www.instagram.com/">

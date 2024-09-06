@@ -1,0 +1,37 @@
+:root {
+   --transition: all 0.3s linear;
+}
+.skills {
+   background-image: url(../../assets/img/color-sharp.png);
+   background-repeat: no-repeat;
+   background-color: #121212;
+   background-position: bottom left;
+   border: none;
+}
+
+.skills__title {
+   font-size: 45px;
+   font-weight: 700;
+   text-align: center;
+   margin-top: 100px;
+}
+
+/* Устройства Small (телефоны с горизонтальной ориентацией, менее 768 пикселей) */
+
+@media (max-width: 767.98px) {
+}
+
+/* // Устройства Medium (планшеты, менее 992 пикселей) */
+
+@media (max-width: 991.98px) {
+}
+
+/* // Устройства Large (настольные компьютеры, менее 1200 пикселей) */
+
+@media (max-width: 1199.98px) {
+}
+
+/* // Устройства X-Large (большие настольные компьютеры, менее 1400 пикселей) */
+
+@media (max-width: 1399.98px) {
+}

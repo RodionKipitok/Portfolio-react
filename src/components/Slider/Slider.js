@@ -1,15 +1,18 @@
 import { useState, useEffect } from 'react';
-import axios from '../../../assets/icon/axios-plain-wordmark.svg';
-import bash from '../../../assets/icon/bash-original.svg';
-import css3 from '../../../assets/icon/CSS Icon.svg';
-import html5 from '../../../assets/icon/html-svgrepo-com.svg';
-import javaScript from '../../../assets/icon/javascript-original.svg';
-import materialui from '../../../assets/icon/materialui-original.svg';
-import react from '../../../assets/icon/react-original-wordmark.svg';
-import npm from '../../../assets/icon/npm-original-wordmark.svg';
-import redux from '../../../assets/icon/redux-original.svg';
-import Arrow1 from '../../../assets/img/arrow1.svg';
-import Arrow2 from '../../../assets/img/arrow2.svg';
+import axios from '..//../assets/icon/axios-plain-wordmark.svg';
+import bash from '..//../assets/icon/bash-original.svg';
+import css3 from '..//../assets/icon/CSS Icon.svg';
+import html5 from '..//../assets/icon/html-svgrepo-com.svg';
+import javaScript from '..//../assets/icon/javascript-original.svg';
+import materialui from '..//../assets/icon/materialui-original.svg';
+import react from '..//../assets/icon/react-original-wordmark.svg';
+import npm from '..//../assets/icon/npm-original-wordmark.svg';
+import redux from '..//../assets/icon/redux-original.svg';
+import Arrow1 from '..//../assets/img/arrow1.svg';
+import Arrow2 from '..//../assets/img/arrow2.svg';
+
+import '../Slider/style.css'
+
 const initialSkills = [
   {
     id: 1,

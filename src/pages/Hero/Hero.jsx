@@ -2,8 +2,8 @@ import { useState, useEffect, useCallback } from 'react';
 import { useInView } from 'react-intersection-observer';
 
 import { NavLink } from 'react-router-dom';
+import '../Hero/style.css';
 
-import './style.css';
 import astronaut from '../../assets/img/header-img.svg';
 const Hero = () => {
    const [loopNum, setLoopNum] = useState(0);
@@ -63,7 +63,9 @@ const Hero = () => {
                      works, and a list of my skills and tools. You can leave me
                      a message through the contact form.
                   </p>
-                  <NavLink className='link-contact' to="/feedback">Let's contact</NavLink>
+                  <NavLink className="link-contact" to="/feedback">
+                     Let's contact
+                  </NavLink>
                </div>
                <div
                   className={inView ? 'animate__zoomIn  animate__animated' : ''}
