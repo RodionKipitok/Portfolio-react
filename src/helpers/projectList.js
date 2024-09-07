@@ -24,11 +24,11 @@ const projects = [
    },
    {
       id: 3,
-      title: 'Business Startup',
-      description: 'Design & Development',
+      title: 'Store',
+      description: 'Development',
       imgUrl: projImg3,
-      technologies: '',
-      linkCodeGitHub: '',
+      technologies: ['REACT','REDUX','REACT-ROUTER-DOM','AXIOS',],
+      linkCodeGitHub: 'https://github.com/RodionKipitok/Store',
       linkGitHubPage: '',
    },
    {
