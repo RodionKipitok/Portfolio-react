@@ -1,5 +1,6 @@
 import freelancerLandingPage from '../assets/project/Portfolio.png';
 import webStudio from '../assets/project/Web-Studio.png';
+import Store from '../assets/project/Store.png';
 import projImg2 from '../assets/img/project-img2.png';
 import projImg3 from '../assets/img/project-img3.png';
 
@@ -26,10 +27,10 @@ const projects = [
       id: 3,
       title: 'Store',
       description: 'Development',
-      imgUrl: projImg3,
-      technologies: ['REACT','REDUX','REACT-ROUTER-DOM','AXIOS',],
+      imgUrl: Store,
+      technologies: ['REACT', 'REDUX', 'REACT-ROUTER-DOM', 'AXIOS'],
       linkCodeGitHub: 'https://github.com/RodionKipitok/Store',
-      linkGitHubPage: '',
+      linkGitHubPage: 'https://rodionkipitok.github.io/Store/',
    },
    {
       id: 4,
