@@ -55,7 +55,7 @@ const projects = [
       title: 'Business Startup',
       description: 'Design & Development',
       imgUrl: projImg3,
-      technologies: [],
+      technologies: [ ],
       linkCodeGitHub: '',
       linkGitHubPage: '',
    },
